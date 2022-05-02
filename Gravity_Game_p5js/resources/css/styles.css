@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: ivory;
+    color: hsl(0, 0%, 30%);
+    font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+    text-align: center;
+}
+
+p {
+    display: inline;
+}
+
+h1 {
+    font-weight: lighter;
+    z-index: 5;
+}
+
+.p5Canvas {
+    /* 16:9 - landscape */
+	/* width: 100vw; 
+    height: 56.25vw; */
+	width: 50vw; 
+    height: 23.125vw;
+	margin: 0 auto;
+
+	/* 9:16 - portrait */
+	/*width: 56.25vw;
+    height: 100vw;*/
+}
+
+details {
+    display: inline;
+}
+
+details > summary {
+    padding: 4px;
+    
+    display: inline;
+}
+
+details > p {
+    padding: 4px;
+    margin: 0;
+    display: inline;
+}
+
+main
+{
+    text-align: center;
+    margin: 0 auto;
+
+	width: 100vw;
+	max-width:100vw;
+
+	/* max-width: 100vw;
+	height: 100%; */
+    /*max-width: 100vw;*/
+}
